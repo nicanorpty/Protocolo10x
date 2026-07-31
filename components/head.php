@@ -25,9 +25,11 @@
 ===================================== -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
 
 
 <!-- =====================================
@@ -41,65 +43,87 @@
 
 tailwind.config = {
 
-theme: {
+    theme: {
 
-extend: {
+        extend: {
 
-colors: {
+            colors: {
 
-brand: {
-primary:'#7C3AED',
-dark:'#4C1D95',
-gold:'#C8A96A'
-}
+                brand: {
 
-},
+                    primary:'#7C3AED',
 
-fontFamily: {
+                    dark:'#4C1D95',
 
-sans:['Inter','sans-serif'],
+                    gold:'#C8A96A'
 
-display:['Playfair Display','serif']
+                }
 
-}
+            },
 
-}
 
-}
+            fontFamily: {
+
+                sans:['Inter','sans-serif'],
+
+                display:['Playfair Display','serif']
+
+            }
+
+        }
+
+    }
 
 }
 
 </script>
 
 
+
+
 <!-- =====================================
      AOS ANIMATION
 ===================================== -->
 
-<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link 
+href="https://unpkg.com/aos@2.3.4/dist/aos.css" 
+rel="stylesheet">
+
+
+
 
 
 <!-- =====================================
      SWIPER CAROUSEL
 ===================================== -->
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link 
+rel="stylesheet" 
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+
+
 
 
 <!-- =====================================
      ICONOS MODERNOS
 ===================================== -->
 
-<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/lucide@latest" defer></script>
+
+
+
 
 
 <!-- =====================================
      CSS PROPIO
 ===================================== -->
 
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
 
 
 </head>
+
 
 <body class="bg-white text-gray-900 antialiased">
