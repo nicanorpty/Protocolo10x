@@ -1,58 +1,84 @@
 <?php
 /**
  * PROTOCOLO 10X
- * Sistema Integral de Entregables + Oferta
+ * Sistema Integral de Entregables
+ * Oferta Premium
  */
 ?>
 
 
 <section 
 id="oferta"
-class="py-24 bg-white overflow-hidden">
-
-
-<div class="max-w-7xl mx-auto px-6">
-
-
-
-<!-- TITULO -->
-
-<div 
-data-aos="fade-up"
-class="text-center max-w-4xl mx-auto">
-
-
-<span class="
-inline-flex
-px-4
-py-2
-rounded-full
-bg-purple-100
-text-purple-700
-text-sm
-font-semibold
+class="
+py-24
+bg-white
+overflow-hidden
 ">
 
-Sistema Integral de Entregables
 
-</span>
+<div class="
+max-w-7xl
+mx-auto
+px-6
+">
+
+
+
+<!-- HERO OFERTA -->
+
+<div
+data-aos="fade-up"
+class="
+text-center
+max-w-5xl
+mx-auto
+">
+
+
+<div class="
+inline-flex
+items-center
+gap-2
+bg-purple-100
+text-purple-700
+px-5
+py-2
+rounded-full
+font-semibold
+text-sm
+">
+
+
+<i data-lucide="sparkles"></i>
+
+SISTEMA INTEGRAL DE ENTREGABLES
+
+
+</div>
+
 
 
 
 <h2 class="
-mt-6
+mt-8
 text-4xl
 md:text-6xl
 font-display
 font-bold
 text-gray-900
+leading-tight
 ">
 
 
 Todo lo que recibirás en
 
+<br>
+
+
 <span class="text-purple-600">
+
 PROTOCOLO 10X®
+
 </span>
 
 
@@ -60,14 +86,23 @@ PROTOCOLO 10X®
 
 
 
+
 <p class="
 mt-6
 text-lg
 text-gray-600
+max-w-3xl
+mx-auto
 ">
 
-31 recursos digitales diseñados para ayudarte a transformar tus hábitos,
-alimentación y energía con un sistema claro y práctico.
+
+Cada recurso ha sido diseñado como una herramienta independiente de alta calidad.
+
+Sin relleno.
+Sin información innecesaria.
+
+Solo herramientas prácticas listas para aplicar.
+
 
 </p>
 
@@ -78,62 +113,92 @@ alimentación y energía con un sistema claro y práctico.
 
 
 
-<!-- VALOR -->
+
+
+<!-- PRECIO -->
 
 <div
 data-aos="zoom-in"
+
 class="
 mt-16
+relative
 bg-gradient-to-br
-from-purple-600
-to-purple-800
+from-purple-700
+to-purple-900
 
 rounded-[3rem]
 
-p-10
+p-8
 md:p-14
 
 text-white
 
-text-center
+overflow-hidden
+">
 
-shadow-2xl
-shadow-purple-200
+
+<div class="
+absolute
+top-0
+right-0
+w-72
+h-72
+bg-white
+opacity-10
+rounded-full
+blur-3xl
+">
+</div>
+
+
+
+
+<div class="
+relative
+z-10
+text-center
 ">
 
 
 <p class="
 uppercase
-tracking-widest
+tracking-[0.3em]
 text-purple-200
 text-sm
+font-semibold
 ">
 
-Valor total acumulado
+Valor total acumulado del protocolo
 
 </p>
 
 
 
-<h3 class="
+
+<div class="
 mt-4
 text-6xl
+md:text-8xl
 font-bold
 ">
 
 $1,411
 
-</h3>
+</div>
+
 
 
 <p class="
-mt-2
+mt-3
 text-purple-100
+text-lg
 ">
 
-Valor individual de todos los recursos
+Valor individual de todos los productos incluidos
 
 </p>
+
 
 
 
@@ -142,93 +207,149 @@ Valor individual de todos los recursos
 mt-10
 bg-white
 text-gray-900
-rounded-3xl
+rounded-[2rem]
 p-8
-max-w-md
+max-w-lg
 mx-auto
+shadow-2xl
 ">
 
 
 <p class="
 text-gray-500
+font-medium
 ">
 
-Acceso completo hoy por
+Acceso completo hoy por una tarifa única de lanzamiento
 
 </p>
 
 
+
 <div class="
-text-5xl
+text-purple-700
 font-bold
-text-purple-600
-mt-2
+text-6xl
+mt-4
 ">
 
 $49.95
 
+<span class="text-2xl">
+USD
+</span>
+
+
 </div>
 
 
+
+
 <p class="
+mt-3
 text-sm
 text-gray-500
-mt-2
 ">
 
-Oferta especial de lanzamiento
+Todos los productos + bonos incluidos
 
 </p>
 
 
-<a 
+
+
+<a
 href="#registro"
 
 class="
-mt-6
 block
+mt-8
+
 bg-purple-600
-text-white
-py-4
-rounded-full
-font-bold
 hover:bg-purple-700
+
+text-white
+
+py-5
+
+rounded-full
+
+font-bold
+
 transition
+
+shadow-lg
 ">
 
 
-Obtener el Pack Completo
+Obtener el Pack Completo por $49.95
 
 
 </a>
 
 
-</div>
-
 
 </div>
 
 
 
+</div>
 
 
 
-<!-- CATEGORIAS -->
-
-<div class="mt-20">
+</div>
 
 
-<h3 class="
-text-3xl
-font-bold
-text-gray-900
+
+
+
+
+
+
+
+<!-- BIBLIOTECA -->
+
+<div
+data-aos="fade-up"
+
+class="
+mt-24
+">
+
+
+<div class="
 text-center
 mb-12
 ">
 
-Tu biblioteca PROTOCOLO 10X®
+
+<h3 class="
+text-4xl
+font-display
+font-bold
+text-gray-900
+">
+
+Biblioteca PROTOCOLO 10X®
 
 </h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Más de 31 recursos organizados por áreas de transformación.
+
+</p>
+
+
+
+</div>
+
+
 
 
 
@@ -237,101 +358,173 @@ Tu biblioteca PROTOCOLO 10X®
 grid
 md:grid-cols-2
 lg:grid-cols-3
-gap-8
+gap-6
 ">
+
+
 
 
 
 <?php
 
-$recursos = [
+$categorias = [
 
 [
-"icon"=>"video",
-"titulo"=>"Video Clases",
-"cantidad"=>"10 módulos HD",
-"texto"=>"Lecciones prácticas paso a paso diseñadas para aplicar desde el día uno."
+
+"icon"=>"play-circle",
+
+"titulo"=>"Video Módulos",
+
+"valor"=>"Valor: $197.00",
+
+"cantidad"=>"10 clases en Video HD",
+
+"desc"=>"Lecciones ejecutivas diseñadas para aplicar paso a paso durante el proceso 10X."
+
 ],
 
+
+
 [
+
 "icon"=>"book-open",
+
 "titulo"=>"Manuales & Agendas",
-"cantidad"=>"5 recursos",
-"texto"=>"Manuales digitales, planners y agendas para organizar tu transformación."
+
+"valor"=>"Valor: $47.00+",
+
+"cantidad"=>"Planificadores digitales",
+
+"desc"=>"Manuales de inicio, agendas interactivas y herramientas de organización."
+
 ],
 
+
+
 [
+
 "icon"=>"calculator",
+
 "titulo"=>"Calculadoras & Registros",
-"cantidad"=>"5 herramientas",
-"texto"=>"Controla hidratación, progreso, hábitos y métricas importantes."
+
+"valor"=>"Herramientas Interactivas",
+
+"cantidad"=>"Control y seguimiento",
+
+"desc"=>"Registros biométricos, hidratación, proteína y progreso personal."
+
 ],
 
+
+
 [
+
 "icon"=>"shopping-cart",
+
 "titulo"=>"Guías de Campo",
-"cantidad"=>"10 guías prácticas",
-"texto"=>"Compras inteligentes, restaurantes, meal prep y decisiones saludables."
+
+"valor"=>"Valor Premium",
+
+"cantidad"=>"Compras y decisiones inteligentes",
+
+"desc"=>"Guías prácticas para supermercado, restaurantes y vida real."
+
 ],
 
+
+
 [
+
 "icon"=>"chef-hat",
+
 "titulo"=>"Recetarios Funcionales",
-"cantidad"=>"6 recetarios",
-"texto"=>"Desayunos, almuerzos, cenas, smoothies y opciones saludables."
+
+"valor"=>"Colección 10X",
+
+"cantidad"=>"Desayunos, comidas y bebidas",
+
+"desc"=>"Recetas diseñadas para energía, saciedad y practicidad."
+
 ],
 
+
+
 [
+
 "icon"=>"lock",
+
 "titulo"=>"Acceso Exclusivo",
-"cantidad"=>"Comunidad + Biblioteca",
-"texto"=>"Recursos privados, comunidad y sesiones especiales."
+
+"valor"=>"Comunidad Privada",
+
+"cantidad"=>"Biblioteca + acompañamiento",
+
+"desc"=>"Acceso a recursos exclusivos y comunidad PROTOCOLO 10X."
+
 ]
+
 
 ];
 
 
-foreach($recursos as $item):
+
+foreach($categorias as $cat):
 
 ?>
 
 
+
+
 <div
-data-aos="fade-up"
 
 class="
 bg-gray-50
-rounded-3xl
-p-8
 border
 border-gray-100
+
+rounded-3xl
+
+p-8
 
 hover:-translate-y-2
 
 transition
+
 duration-300
-">
+
+shadow-sm
+"
+
+
+data-aos="fade-up"
+
+>
+
 
 
 <div class="
 w-14
 h-14
 rounded-2xl
+
 bg-purple-100
+
 flex
 items-center
 justify-center
+
 mb-6
 ">
 
 
 <i 
-data-lucide="<?= $item['icon']; ?>"
-class="text-purple-600">
+data-lucide="<?= $cat['icon']; ?>"
+class="text-purple-600 w-7 h-7">
 </i>
 
 
 </div>
+
 
 
 
@@ -341,8 +534,7 @@ font-bold
 text-gray-900
 ">
 
-<?= $item['titulo']; ?>
-
+<?= $cat['titulo']; ?>
 
 </h4>
 
@@ -350,68 +542,98 @@ text-gray-900
 
 <p class="
 mt-2
-font-semibold
 text-purple-600
+font-semibold
 ">
 
-<?= $item['cantidad']; ?>
+<?= $cat['valor']; ?>
 
 </p>
 
 
 
 <p class="
-mt-4
-text-gray-600
+mt-3
+font-medium
+text-gray-800
 ">
 
-<?= $item['texto']; ?>
+<?= $cat['cantidad']; ?>
 
 </p>
 
 
 
+<p class="
+mt-3
+text-gray-600
+leading-relaxed
+">
+
+<?= $cat['desc']; ?>
+
+</p>
+
+
+
+<button
+class="
+mt-6
+text-purple-600
+font-semibold
+">
+
+
+Ver recursos incluidos →
+
+</button>
+
+
+
 </div>
+
 
 
 <?php endforeach; ?>
 
 
-</div>
-
 
 </div>
 
 
+</div>
+
+<!-- =====================================
+     DETALLE DE RECURSOS INCLUIDOS
+===================================== -->
 
 
-
-
-
-
-<!-- BONOS -->
-
-<div 
+<div
 data-aos="fade-up"
-
 class="
 mt-24
-bg-purple-50
-rounded-[3rem]
-p-10
-md:p-14
+"
+>
+
+
+
+<div class="
+text-center
+max-w-3xl
+mx-auto
+mb-12
 ">
-
-
-<div class="text-center">
 
 
 <span class="
 text-purple-600
 font-bold
+uppercase
+tracking-widest
+text-sm
 ">
 
-BONOS DE ACELERACIÓN
+Todos los productos incluidos
 
 </span>
 
@@ -425,17 +647,17 @@ font-bold
 text-gray-900
 ">
 
-5 regalos exclusivos incluidos GRATIS
+Tu sistema completo de transformación
 
 </h3>
 
 
 <p class="
-mt-4
+mt-5
 text-gray-600
 ">
 
-Valor adicional de $311 USD por lanzamiento.
+Cada herramienta fue creada para acompañarte durante los 10 días y ayudarte a mantener los resultados.
 
 </p>
 
@@ -445,148 +667,664 @@ Valor adicional de $311 USD por lanzamiento.
 
 
 
+
+
+
+<!-- RECURSOS -->
+
+
 <div class="
-grid
-md:grid-cols-2
-lg:grid-cols-5
-gap-5
-mt-10
+space-y-6
 ">
 
 
-<?php
-
-$bonos=[
-
-"Recetario Gourmet Biohacking",
-
-"Meal Prep 60 minutos",
-
-"Lista inteligente supermercado",
-
-"Planner de hábitos",
-
-"Masterclass alimentación inteligente"
-
-];
 
 
-foreach($bonos as $bono):
 
-?>
+<!-- VIDEO -->
 
-
-<div class="
+<div
+class="
 bg-white
-rounded-2xl
-p-5
+border
+border-gray-100
+rounded-3xl
+p-8
 shadow-sm
 ">
 
 
 <div class="
-text-purple-600
-font-bold
-text-sm
-mb-3
-">
-
-BONO GRATIS
-
-</div>
-
-
-<p class="
-font-semibold
-text-gray-800
-">
-
-<?= $bono ?>
-
-</p>
-
-
-</div>
-
-
-<?php endforeach; ?>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-<!-- CTA FINAL -->
-
-<div
-data-aos="zoom-in"
-
-class="
-mt-20
-text-center
+flex
+items-start
+gap-5
 ">
 
 
-<h3 class="
-text-4xl
+<div class="
+w-12
+h-12
+rounded-2xl
+bg-purple-100
+flex
+items-center
+justify-center
+flex-shrink-0
+">
+
+
+<i data-lucide="video"
+class="text-purple-600">
+</i>
+
+
+</div>
+
+
+
+<div>
+
+<h4 class="
+text-xl
 font-bold
 text-gray-900
 ">
 
-Consigue PROTOCOLO 10X®
+Video Módulos PROTOCOLO 10X®
 
-</h3>
+</h4>
 
 
 <p class="
-mt-4
+mt-2
 text-gray-600
 ">
 
-Todo incluido. Acceso inmediato. Oferta limitada de lanzamiento.
+10 clases en Video de Alta Definición
 
 </p>
 
 
+<p class="
+mt-3
+text-gray-600
+">
 
-<a 
-href="#registro"
+Lecciones ejecutivas de 10-15 minutos diseñadas para la vida real.
 
-class="
+Sin rodeos.
+Con pasos accionables día por día.
+
+</p>
+
+
+<div class="
+mt-4
 inline-flex
-mt-8
-px-10
-py-5
-
+bg-purple-50
+text-purple-700
+px-4
+py-2
 rounded-full
+text-sm
+font-semibold
+">
 
-bg-purple-600
+Valor: $197.00 USD
 
-text-white
+</div>
 
-font-bold
 
-shadow-xl
-shadow-purple-200
+</div>
 
-hover:scale-105
 
-transition
+</div>
+
+</div>
+
+
+
+
+
+
+
+<!-- MANUALES -->
+
+<div
+class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
 ">
 
 
-Reclamar mi acceso por $49.95
+<div class="
+flex
+items-start
+gap-5
+">
 
 
-</a>
+<div class="
+w-12
+h-12
+rounded-2xl
+bg-purple-100
+flex
+items-center
+justify-center
+flex-shrink-0
+">
 
+
+<i data-lucide="book-open"
+class="text-purple-600">
+</i>
+
+
+</div>
+
+
+
+
+<div>
+
+<h4 class="
+text-xl
+font-bold
+">
+
+Manuales & Agendas Digitales
+
+</h4>
+
+
+
+<ul class="
+mt-4
+space-y-3
+text-gray-600
+">
+
+
+<li>
+✓ Manual Digital de Inicio Rápido 10X®
+</li>
+
+
+<li>
+✓ Agenda Digital Interactiva de Hábitos
+</li>
+
+
+<li>
+✓ Planificador Semanal de Comidas
+</li>
+
+
+<li>
+✓ Planificador Mensual de Mantenimiento
+</li>
+
+
+<li>
+✓ Calendario de Hábitos y Ritmos Circadianos
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<!-- CALCULADORAS -->
+
+<div
+class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+">
+
+
+<div class="
+flex
+items-start
+gap-5
+">
+
+
+<div class="
+w-12
+h-12
+rounded-2xl
+bg-purple-100
+flex
+items-center
+justify-center
+">
+
+
+<i data-lucide="calculator"
+class="text-purple-600">
+</i>
+
+
+</div>
+
+
+
+<div>
+
+
+<h4 class="
+text-xl
+font-bold
+">
+
+Calculadoras & Registros Inteligentes
+
+</h4>
+
+
+
+<ul class="
+mt-4
+space-y-3
+text-gray-600
+">
+
+
+<li>
+✓ Calculadora de Hidratación y Electrolitos
+</li>
+
+
+<li>
+✓ Calculadora de Proteína Funcional y Saciedad
+</li>
+
+
+<li>
+✓ Registro de Progreso Biométrico
+</li>
+
+
+<li>
+✓ Sistema de Control de Peso y Medidas
+</li>
+
+
+<li>
+✓ Registro Fotográfico Privado
+</li>
+
+
+</ul>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- GUIAS -->
+
+<div
+class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+">
+
+
+<div class="
+flex
+items-start
+gap-5
+">
+
+
+<div class="
+w-12
+h-12
+rounded-2xl
+bg-purple-100
+flex
+items-center
+justify-center
+">
+
+
+<i data-lucide="map"
+class="text-purple-600">
+</i>
+
+
+</div>
+
+
+
+
+<div>
+
+
+<h4 class="
+text-xl
+font-bold
+">
+
+Guías de Campo 10X®
+
+</h4>
+
+
+<ul class="
+mt-4
+space-y-3
+text-gray-600
+">
+
+
+<li>
+✓ Lista Inteligente del Supermercado Biohacking
+</li>
+
+
+<li>
+✓ Guía para Leer Etiquetas Nutricionales
+</li>
+
+
+<li>
+✓ Guía de Supervivencia para Comer en Restaurantes
+</li>
+
+
+<li>
+✓ Guía Meal Prep Inteligente 60 minutos
+</li>
+
+
+<li>
+✓ Organización y Limpieza de Cocina
+</li>
+
+
+<li>
+✓ Control de Antojos y Deseos Dulces
+</li>
+
+
+<li>
+✓ Hambre Emocional vs Hambre Biológica
+</li>
+
+
+<li>
+✓ Matriz de Sustituciones Saludables
+</li>
+
+
+<li>
+✓ Snacks Funcionales
+</li>
+
+
+<li>
+✓ Bebidas Funcionales y Cafés Biohacking
+</li>
+
+
+</ul>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- RECETARIOS -->
+
+
+<div
+class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+">
+
+
+<div class="
+flex
+items-start
+gap-5
+">
+
+
+<div class="
+w-12
+h-12
+rounded-2xl
+bg-purple-100
+flex
+items-center
+justify-center
+">
+
+
+<i data-lucide="utensils"
+class="text-purple-600">
+</i>
+
+
+</div>
+
+
+
+<div>
+
+
+<h4 class="
+text-xl
+font-bold
+">
+
+Recetarios Funcionales 10X®
+
+</h4>
+
+
+<ul class="
+mt-4
+space-y-3
+text-gray-600
+">
+
+
+<li>
+✓ Desayunos de Alto Rendimiento
+</li>
+
+
+<li>
+✓ Almuerzos Energéticos
+</li>
+
+
+<li>
+✓ Cenas Reparadoras
+</li>
+
+
+<li>
+✓ Postres Saludables sin Azúcar
+</li>
+
+
+<li>
+✓ Smoothies Proteicos y Verdes
+</li>
+
+
+<li>
+✓ Bebidas Hidratantes y Elixires Digestivos
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- ACCESO -->
+
+<div
+class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+">
+
+
+<div class="
+flex
+items-start
+gap-5
+">
+
+
+<div class="
+w-12
+h-12
+rounded-2xl
+bg-purple-100
+flex
+items-center
+justify-center
+">
+
+
+<i data-lucide="shield-check"
+class="text-purple-600">
+</i>
+
+
+</div>
+
+
+
+<div>
+
+
+<h4 class="
+text-xl
+font-bold
+">
+
+Acceso Exclusivo PROTOCOLO 10X®
+
+</h4>
+
+
+
+<ul class="
+mt-4
+space-y-3
+text-gray-600
+">
+
+
+<li>
+✓ Biblioteca Digital Centralizada
+</li>
+
+
+<li>
+✓ Comunidad Privada de Alumnos
+</li>
+
+
+<li>
+✓ Sesiones Grupales en Vivo
+</li>
+
+
+<li>
+✓ Certificado Digital de Finalización
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+</div>
 
 
 </div>
@@ -596,4 +1334,4 @@ Reclamar mi acceso por $49.95
 </div>
 
 
-</section>
+</div>
