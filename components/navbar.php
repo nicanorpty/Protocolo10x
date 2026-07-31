@@ -134,39 +134,51 @@ FAQ
 
 
 <!-- BOTON -->
-
 <a 
 href="#registro"
-
 class="
-hidden
-md:flex
+hidden md:flex 
+flex-col
 items-center
-gap-2
+justify-center
 px-6
 py-3
 rounded-full
 
 bg-purple-600
+hover:bg-purple-700
+
 text-white
 
-font-semibold
-
-shadow-lg
-shadow-purple-200
-
-hover:bg-purple-700
-hover:scale-105
+font-bold
 
 transition
 duration-300
+
+shadow-lg
+hover:scale-105
 ">
 
 
-Comenzar 10X
+<span class="
+text-xs
+line-through
+opacity-70
+">
+
+$1,411
+
+</span>
 
 
-<i data-lucide="arrow-right" class="w-4 h-4"></i>
+<span class="
+text-sm
+md:text-base
+">
+
+Comenzar 10X Hoy $49.95
+
+</span>
 
 
 </a>
