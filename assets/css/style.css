@@ -1,0 +1,14 @@
+/* PROTOCOLO 10X - Custom Styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+::selection {
+    background: #7C3AED;
+    color: white;
+}
