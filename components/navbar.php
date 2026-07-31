@@ -1,125 +1,200 @@
 <?php
 /**
  * PROTOCOLO 10X
- * Navbar Premium
+ * Navbar App Style
  */
 ?>
 
 
-<nav 
+<header 
 id="navbar"
 class="fixed top-0 left-0 w-full z-50 transition-all duration-500">
 
-    <div class="max-w-7xl mx-auto px-6 py-5">
+<nav class="max-w-7xl mx-auto px-6 py-5">
 
-        <div class="flex items-center justify-between">
-
-
-            <!-- LOGO -->
-
-            <a href="#" 
-            class="flex items-center gap-2">
-
-                <div 
-                class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-gold to-yellow-700 flex items-center justify-center shadow-lg">
-
-                    <span class="text-black font-bold text-xl">
-                        10X
-                    </span>
-
-                </div>
+<div class="flex items-center justify-between">
 
 
-                <div>
+<!-- LOGO -->
 
-                    <h1 class="font-display text-xl text-white tracking-wide">
-                        PROTOCOLO
-                        <span class="text-brand-gold">
-                            10X
-                        </span>
-                    </h1>
+<a href="#" class="flex items-center gap-3">
 
+<div class="
+w-11 h-11 rounded-2xl 
+bg-gradient-to-br 
+from-purple-600 
+to-purple-800
+flex items-center justify-center
+shadow-lg shadow-purple-200
+">
 
-                    <p class="text-xs text-gray-300 tracking-widest">
-                        TRANSFORMACIÓN
-                    </p>
+<span class="text-white font-bold text-lg">
+10X
+</span>
 
-                </div>
-
-
-            </a>
-
-
+</div>
 
 
-            <!-- MENU DESKTOP -->
+<div>
 
-            <div class="hidden md:flex items-center gap-8">
+<h1 class="
+font-display 
+font-bold 
+text-xl 
+text-gray-900
+">
 
+PROTOCOLO
 
-                <a href="#inicio"
-                class="text-white/90 hover:text-white transition">
-                    Inicio
-                </a>
+<span class="text-purple-600">
+10X
+</span>
 
-
-                <a href="#como-funciona"
-                class="text-white/90 hover:text-white transition">
-                    Cómo funciona
-                </a>
-
-
-                <a href="#resultados"
-                class="text-white/90 hover:text-white transition">
-                    Resultados
-                </a>
+</h1>
 
 
-                <a href="#faq"
-                class="text-white/90 hover:text-white transition">
-                    FAQ
-                </a>
+<p class="
+text-[10px]
+tracking-[0.3em]
+text-gray-500
+">
+
+TRANSFORMACIÓN
+
+</p>
 
 
-            </div>
+</div>
+
+</a>
 
 
 
+<!-- MENU -->
+
+<div class="
+hidden 
+md:flex 
+items-center 
+gap-8
+">
 
 
-            <!-- CTA -->
+<a href="#inicio"
+class="
+text-gray-600
+hover:text-purple-600
+transition
+">
 
-            <a 
-            href="#registro"
-            class="hidden md:flex items-center gap-2 px-6 py-3 rounded-full 
-            bg-brand-gold text-black font-semibold
-            hover:scale-105 transition duration-300 shadow-lg">
+Inicio
 
-                Iniciar ahora
-
-                <i data-lucide="arrow-right" class="w-4 h-4"></i>
-
-            </a>
+</a>
 
 
+<a href="#metodo"
+class="
+text-gray-600
+hover:text-purple-600
+transition
+">
+
+Método
+
+</a>
+
+
+<a href="#resultados"
+class="
+text-gray-600
+hover:text-purple-600
+transition
+">
+
+Resultados
+
+</a>
+
+
+<a href="#faq"
+class="
+text-gray-600
+hover:text-purple-600
+transition
+">
+
+FAQ
+
+</a>
+
+
+</div>
 
 
 
-            <!-- MOBILE BUTTON -->
 
-            <button 
-            class="md:hidden text-white"
-            id="menu-btn">
+<!-- BOTON -->
 
-                <i data-lucide="menu"></i>
+<a 
+href="#registro"
 
-            </button>
+class="
+hidden
+md:flex
+items-center
+gap-2
+px-6
+py-3
+rounded-full
+
+bg-purple-600
+text-white
+
+font-semibold
+
+shadow-lg
+shadow-purple-200
+
+hover:bg-purple-700
+hover:scale-105
+
+transition
+duration-300
+">
+
+
+Comenzar 10X
+
+
+<i data-lucide="arrow-right" class="w-4 h-4"></i>
+
+
+</a>
 
 
 
-        </div>
 
-    </div>
+<!-- MOBILE -->
+
+<button 
+id="menu-btn"
+
+class="
+md:hidden
+text-gray-800
+">
+
+
+<i data-lucide="menu"></i>
+
+
+</button>
+
+
+</div>
 
 
 </nav>
+
+
+</header>
