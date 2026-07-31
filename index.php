@@ -16,27 +16,22 @@
 <main>
 
 
-    <!-- HERO PRINCIPAL -->
+    <!-- HERO -->
 
     <?php include 'components/hero.php'; ?>
 
 
 
-    <!-- COMO FUNCIONA -->
+    <!-- METODO -->
 
     <?php include 'components/como-funciona.php'; ?>
 
 
 
-    <!-- TESTIMONIOS ANTES / DESPUES -->
+    <!-- RESULTADOS -->
 
-    <?php include 'components/testimonios.php'; ?>
+    <?php include 'components/resultados.php'; ?>
 
-
-
-    <!-- OFERTA PREMIUM -->
-
-    <?php include 'components/oferta.php'; ?>
 
 
 </main>

@@ -7,23 +7,81 @@
 document.addEventListener("DOMContentLoaded", () => {
 
 
-    // Inicializar iconos Lucide
+
+    // ICONOS LUCIDE
 
     if (window.lucide) {
+
         lucide.createIcons();
+
     }
 
 
 
-    // Animaciones AOS
+
+    // ANIMACIONES AOS
 
     if (window.AOS) {
+
         AOS.init({
+
             duration:800,
+
             once:true,
+
             offset:80
+
         });
+
     }
+
+
+
+
+
+    // SWIPER RESULTADOS
+
+    if (document.querySelector(".resultadosSwiper")) {
+
+
+        const swiper = new Swiper(".resultadosSwiper", {
+
+
+            loop:true,
+
+
+            slidesPerView:1,
+
+
+            spaceBetween:30,
+
+
+            autoplay:{
+
+                delay:4000,
+
+                disableOnInteraction:false
+
+            },
+
+
+            pagination:{
+
+
+                el:".swiper-pagination",
+
+                clickable:true
+
+
+            }
+
+
+
+        });
+
+
+    }
+
 
 
 });
