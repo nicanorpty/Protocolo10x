@@ -405,15 +405,7 @@ Sin rodeos, con pasos accionables día por día.
 </p>
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 
@@ -525,15 +517,7 @@ eliminar fricción y preparar tu primera semana sin estrés.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -630,15 +614,7 @@ Sincroniza horarios, comidas y niveles de energía.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -724,15 +700,7 @@ grasas saludables y carbohidratos complejos.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -815,15 +783,7 @@ y consolidar un estilo de vida sostenible.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -910,15 +870,7 @@ y mejora la calidad de tu descanso nocturno.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -1026,15 +978,7 @@ según tu peso, clima y nivel de estrés.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -1142,15 +1086,7 @@ para mejorar saciedad y estructura nutricional.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -1236,15 +1172,7 @@ claridad mental, digestión, sueño y saciedad.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -1314,15 +1242,7 @@ e inflamación abdominal sin obsesiones con la báscula.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -1410,15 +1330,7 @@ tono muscular e inflamación con privacidad total.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -1504,15 +1416,7 @@ ahorrar dinero y evitar tentaciones ultraprocesadas.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -1600,15 +1504,7 @@ y reconocer ingredientes que afectan tus objetivos.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -1714,15 +1610,7 @@ sin descarrilar tus hábitos ni sentir culpa.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -1811,15 +1699,7 @@ con el método "Cooking in Batches".
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -1896,15 +1776,7 @@ donde la opción saludable sea la más fácil de tomar.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -1992,15 +1864,7 @@ y recuperar el control de tus decisiones.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -2089,15 +1953,7 @@ y cuándo responde a estrés, cansancio o emociones.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -2186,15 +2042,7 @@ sin perder sabor ni disfrute.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -2283,15 +2131,7 @@ que mantienen energía estable durante el día.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -2379,15 +2219,7 @@ e infusiones para potenciar tu energía y enfoque.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -2461,15 +2293,7 @@ con nutrientes esenciales para iniciar el día.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 </div>
 
@@ -2550,15 +2374,7 @@ y evitar pesadez después de comer.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 </div>
 
@@ -2641,15 +2457,7 @@ recuperación y bienestar nocturno.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 </div>
 
@@ -2736,15 +2544,7 @@ para disfrutar cuidando tus objetivos.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -2832,15 +2632,7 @@ nutritivos en menos de 3 minutos.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
@@ -2928,15 +2720,7 @@ para complementar tu rutina diaria.
 
 
 
-<button class="
-mt-6
-text-purple-600
-font-bold
-">
 
-Ver detalles del recurso →
-
-</button>
 
 
 </div>
