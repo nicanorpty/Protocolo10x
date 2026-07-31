@@ -1,58 +1,43 @@
 <?php
 /**
  * PROTOCOLO 10X
- * Sistema Integral de Entregables
  * Oferta Premium
+ * Sistema Integral de Entregables
  */
 ?>
 
 
-<section 
-id="oferta"
-class="
-py-24
-bg-white
-overflow-hidden
-">
+<section id="oferta" class="py-24 bg-white">
 
 
-<div class="
-max-w-7xl
-mx-auto
-px-6
-">
+<div class="max-w-7xl mx-auto px-6">
 
 
 
-<!-- HERO OFERTA -->
+<!-- HEADER OFERTA -->
 
-<div
+<div 
 data-aos="fade-up"
-class="
-text-center
-max-w-5xl
-mx-auto
-">
+class="text-center max-w-5xl mx-auto">
 
 
 <div class="
 inline-flex
 items-center
 gap-2
-bg-purple-100
-text-purple-700
 px-5
 py-2
 rounded-full
-font-semibold
+bg-purple-100
+text-purple-700
+font-bold
 text-sm
+tracking-wide
 ">
-
 
 <i data-lucide="sparkles"></i>
 
 SISTEMA INTEGRAL DE ENTREGABLES
-
 
 </div>
 
@@ -66,14 +51,12 @@ md:text-6xl
 font-display
 font-bold
 text-gray-900
-leading-tight
 ">
 
 
 Todo lo que recibirás en
 
 <br>
-
 
 <span class="text-purple-600">
 
@@ -96,18 +79,16 @@ mx-auto
 ">
 
 
-Cada recurso ha sido diseñado como una herramienta independiente de alta calidad.
-
-Sin relleno.
-Sin información innecesaria.
-
-Solo herramientas prácticas listas para aplicar.
+Un sistema completo de transformación compuesto por herramientas digitales,
+guías prácticas, clases, registros y recursos diseñados para acompañarte
+durante los 10 días.
 
 
 </p>
 
 
 </div>
+
 
 
 
@@ -122,51 +103,27 @@ data-aos="zoom-in"
 
 class="
 mt-16
-relative
 bg-gradient-to-br
 from-purple-700
 to-purple-900
 
 rounded-[3rem]
 
-p-8
+p-10
 md:p-14
 
 text-white
 
-overflow-hidden
-">
-
-
-<div class="
-absolute
-top-0
-right-0
-w-72
-h-72
-bg-white
-opacity-10
-rounded-full
-blur-3xl
-">
-</div>
-
-
-
-
-<div class="
-relative
-z-10
 text-center
 ">
 
 
 <p class="
 uppercase
-tracking-[0.3em]
+tracking-widest
 text-purple-200
+font-bold
 text-sm
-font-semibold
 ">
 
 Valor total acumulado del protocolo
@@ -175,27 +132,24 @@ Valor total acumulado del protocolo
 
 
 
-
-<div class="
+<h3 class="
 mt-4
-text-6xl
-md:text-8xl
+text-7xl
 font-bold
 ">
 
 $1,411
 
-</div>
+</h3>
 
 
 
 <p class="
 mt-3
 text-purple-100
-text-lg
 ">
 
-Valor individual de todos los productos incluidos
+Valor individual de todos los recursos incluidos
 
 </p>
 
@@ -206,21 +160,20 @@ Valor individual de todos los productos incluidos
 <div class="
 mt-10
 bg-white
-text-gray-900
-rounded-[2rem]
+rounded-3xl
 p-8
-max-w-lg
+max-w-md
 mx-auto
-shadow-2xl
+text-gray-900
 ">
 
 
 <p class="
 text-gray-500
-font-medium
+font-semibold
 ">
 
-Acceso completo hoy por una tarifa única de lanzamiento
+Acceso completo durante el lanzamiento
 
 </p>
 
@@ -230,18 +183,17 @@ Acceso completo hoy por una tarifa única de lanzamiento
 text-purple-700
 font-bold
 text-6xl
-mt-4
+mt-3
 ">
 
 $49.95
 
-<span class="text-2xl">
+<span class="text-xl">
 USD
 </span>
 
 
 </div>
-
 
 
 
@@ -251,50 +203,42 @@ text-sm
 text-gray-500
 ">
 
-Todos los productos + bonos incluidos
+Incluye todos los productos + bonos exclusivos
 
 </p>
 
 
 
 
-<a
+<a 
 href="#registro"
 
 class="
-block
 mt-8
+block
 
 bg-purple-600
 hover:bg-purple-700
 
 text-white
 
+font-bold
+
 py-5
 
 rounded-full
-
-font-bold
 
 transition
 
 shadow-lg
 ">
 
-
 Obtener el Pack Completo por $49.95
-
 
 </a>
 
 
-
 </div>
-
-
-
-</div>
-
 
 
 </div>
@@ -312,9 +256,7 @@ Obtener el Pack Completo por $49.95
 <div
 data-aos="fade-up"
 
-class="
-mt-24
-">
+class="mt-24">
 
 
 <div class="
@@ -327,7 +269,6 @@ mb-12
 text-4xl
 font-display
 font-bold
-text-gray-900
 ">
 
 Biblioteca PROTOCOLO 10X®
@@ -335,19 +276,18 @@ Biblioteca PROTOCOLO 10X®
 </h3>
 
 
-
 <p class="
 mt-4
 text-gray-600
 ">
 
-Más de 31 recursos organizados por áreas de transformación.
+Todos los productos incluidos dentro del sistema.
 
 </p>
 
 
-
 </div>
+
 
 
 
@@ -358,127 +298,19 @@ Más de 31 recursos organizados por áreas de transformación.
 grid
 md:grid-cols-2
 lg:grid-cols-3
-gap-6
+gap-8
 ">
 
 
 
 
 
-<?php
 
-$categorias = [
 
-[
+<!-- PRODUCTO 1 -->
 
-"icon"=>"play-circle",
-
-"titulo"=>"Video Módulos",
-
-"valor"=>"Valor: $197.00",
-
-"cantidad"=>"10 clases en Video HD",
-
-"desc"=>"Lecciones ejecutivas diseñadas para aplicar paso a paso durante el proceso 10X."
-
-],
-
-
-
-[
-
-"icon"=>"book-open",
-
-"titulo"=>"Manuales & Agendas",
-
-"valor"=>"Valor: $47.00+",
-
-"cantidad"=>"Planificadores digitales",
-
-"desc"=>"Manuales de inicio, agendas interactivas y herramientas de organización."
-
-],
-
-
-
-[
-
-"icon"=>"calculator",
-
-"titulo"=>"Calculadoras & Registros",
-
-"valor"=>"Herramientas Interactivas",
-
-"cantidad"=>"Control y seguimiento",
-
-"desc"=>"Registros biométricos, hidratación, proteína y progreso personal."
-
-],
-
-
-
-[
-
-"icon"=>"shopping-cart",
-
-"titulo"=>"Guías de Campo",
-
-"valor"=>"Valor Premium",
-
-"cantidad"=>"Compras y decisiones inteligentes",
-
-"desc"=>"Guías prácticas para supermercado, restaurantes y vida real."
-
-],
-
-
-
-[
-
-"icon"=>"chef-hat",
-
-"titulo"=>"Recetarios Funcionales",
-
-"valor"=>"Colección 10X",
-
-"cantidad"=>"Desayunos, comidas y bebidas",
-
-"desc"=>"Recetas diseñadas para energía, saciedad y practicidad."
-
-],
-
-
-
-[
-
-"icon"=>"lock",
-
-"titulo"=>"Acceso Exclusivo",
-
-"valor"=>"Comunidad Privada",
-
-"cantidad"=>"Biblioteca + acompañamiento",
-
-"desc"=>"Acceso a recursos exclusivos y comunidad PROTOCOLO 10X."
-
-]
-
-
-];
-
-
-
-foreach($categorias as $cat):
-
-?>
-
-
-
-
-<div
-
-class="
-bg-gray-50
+<div class="
+bg-white
 border
 border-gray-100
 
@@ -486,41 +318,46 @@ rounded-3xl
 
 p-8
 
-hover:-translate-y-2
+shadow-sm
+
+hover:shadow-xl
 
 transition
-
-duration-300
-
-shadow-sm
-"
-
-
-data-aos="fade-up"
-
->
-
-
-
-<div class="
-w-14
-h-14
-rounded-2xl
-
-bg-purple-100
-
-flex
-items-center
-justify-center
-
-mb-6
 ">
 
 
-<i 
-data-lucide="<?= $cat['icon']; ?>"
-class="text-purple-600 w-7 h-7">
-</i>
+<div class="
+flex
+justify-between
+items-center
+">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+VIDEO MÓDULOS
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+text-sm
+font-bold
+">
+
+$197.00
+
+</span>
 
 
 </div>
@@ -529,62 +366,52 @@ class="text-purple-600 w-7 h-7">
 
 
 <h4 class="
-text-xl
+mt-5
+text-sm
+uppercase
+tracking-wide
+text-gray-400
 font-bold
-text-gray-900
 ">
 
-<?= $cat['titulo']; ?>
+MÓDULO PRINCIPAL
 
 </h4>
 
 
 
-<p class="
-mt-2
-text-purple-600
-font-semibold
+<h3 class="
+mt-3
+text-xl
+font-bold
 ">
 
-<?= $cat['valor']; ?>
+10 Clases en Video de Alta Definición
 
-</p>
+</h3>
 
-
-
-<p class="
-mt-3
-font-medium
-text-gray-800
-">
-
-<?= $cat['cantidad']; ?>
-
-</p>
 
 
 
 <p class="
-mt-3
+mt-4
 text-gray-600
 leading-relaxed
 ">
 
-<?= $cat['desc']; ?>
+Lecciones ejecutivas de 10-15 minutos diseñadas para la vida real.
+Sin rodeos, con pasos accionables día por día.
 
 </p>
 
 
-
-<button
-class="
+<button class="
 mt-6
 text-purple-600
-font-semibold
+font-bold
 ">
 
-
-Ver recursos incluidos →
+Ver detalles del recurso →
 
 </button>
 
@@ -594,62 +421,3299 @@ Ver recursos incluidos →
 
 
 
-<?php endforeach; ?>
 
 
 
-</div>
 
 
-</div>
 
-<!-- =====================================
-     DETALLE DE RECURSOS INCLUIDOS
-===================================== -->
+<!-- PRODUCTO 2 -->
 
+<div class="
+bg-white
+border
+border-gray-100
 
-<div
-data-aos="fade-up"
-class="
-mt-24
-"
->
+rounded-3xl
 
+p-8
+
+shadow-sm
+
+hover:shadow-xl
+
+transition
+">
 
 
 <div class="
-text-center
-max-w-3xl
-mx-auto
-mb-12
+flex
+justify-between
 ">
 
 
 <span class="
 text-purple-600
 font-bold
-uppercase
-tracking-widest
 text-sm
 ">
 
-Todos los productos incluidos
+MANUALES & AGENDAS
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$47.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h4 class="
+mt-5
+text-sm
+uppercase
+tracking-wide
+text-gray-400
+font-bold
+">
+
+ESENCIAL
+
+</h4>
+
+
+
+
+<h3 class="
+mt-3
+text-xl
+font-bold
+">
+
+Manual Digital de Inicio Rápido 10X®
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Tu hoja de ruta directa para configurar tu entorno,
+eliminar fricción y preparar tu primera semana sin estrés.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 3 -->
+
+<div class="
+bg-white
+border
+border-gray-100
+
+rounded-3xl
+
+p-8
+
+shadow-sm
+
+hover:shadow-xl
+
+transition
+">
+
+
+<div class="
+flex
+justify-between
+">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+MANUALES & AGENDAS
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$39.00
+
+</span>
+
+
+</div>
+
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Agenda Digital Interactiva de Hábitos
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Compatible con Notion, GoodNotes, iPad y PDF imprimible.
+Sincroniza horarios, comidas y niveles de energía.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+<!-- PRODUCTOS ADICIONALES -->
+
+
+
+
+<!-- PRODUCTO 4 -->
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+MANUALES & AGENDAS
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+$29.00
+</span>
+
+
+</div>
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Planificador Semanal de Comidas Sin Fricción
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Diseña tu menú semanal en menos de 15 minutos alineando proteínas,
+grasas saludables y carbohidratos complejos.
+
+</p>
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 5 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+MANUALES & AGENDAS
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$29.00
+
+</span>
+
+
+</div>
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Planificador Mensual de Mantenimiento
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+El sistema visual para proyectar tus hábitos más allá de los 10 días
+y consolidar un estilo de vida sostenible.
+
+</p>
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 6 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+MANUALES & AGENDAS
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$25.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Calendario de Hábitos y Ritmos Circadianos
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Optimiza tus ventanas de alimentación alineadas con la luz solar
+y mejora la calidad de tu descanso nocturno.
+
+</p>
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 7 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+CALCULADORAS & REGISTROS
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$35.00
+
+</span>
+
+
+</div>
+
+
+
+
+<span class="
+inline-block
+mt-4
+text-xs
+bg-green-100
+text-green-700
+px-3
+py-1
+rounded-full
+font-bold
+">
+
+HERRAMIENTA INTERACTIVA
+
+</span>
+
+
+
+
+<h3 class="
+mt-5
+text-xl
+font-bold
+">
+
+Calculadora Inteligente de Hidratación y Electrolitos
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Calcula tus requerimientos de agua, sodio, potasio y magnesio
+según tu peso, clima y nivel de estrés.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 8 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+CALCULADORAS & REGISTROS
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$35.00
+
+</span>
+
+
+</div>
+
+
+
+
+<span class="
+inline-block
+mt-4
+text-xs
+bg-green-100
+text-green-700
+px-3
+py-1
+rounded-full
+font-bold
+">
+
+HERRAMIENTA INTERACTIVA
+
+</span>
+
+
+
+
+<h3 class="
+mt-5
+text-xl
+font-bold
+">
+
+Calculadora de Proteína Funcional y Saciedad
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Determina los gramos exactos de proteína por comida
+para mejorar saciedad y estructura nutricional.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 9 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+CALCULADORAS & REGISTROS
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$29.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Registro de Progreso Biométrico y Bienestar
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Monitorea métricas que van más allá del peso:
+claridad mental, digestión, sueño y saciedad.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+<!-- PRODUCTO 10 -->
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+CALCULADORAS & REGISTROS
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+$25.00
+</span>
+
+</div>
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Sistema de Control de Peso y Medidas Corporales
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Un protocolo de medición profesional para evaluar pérdida de grasa
+e inflamación abdominal sin obsesiones con la báscula.
+
+</p>
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 11 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+CALCULADORAS & REGISTROS
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$19.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Protocolo de Registro Fotográfico Privado
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Guía visual paso a paso para documentar cambios reales de postura,
+tono muscular e inflamación con privacidad total.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 12 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+GUÍAS DE CAMPO
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$39.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Lista Inteligente del Supermercado Biohacking
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Organizada por pasillos estratégicos para comprar en 20 minutos,
+ahorrar dinero y evitar tentaciones ultraprocesadas.
+
+</p>
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 13 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+GUÍAS DE CAMPO
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$35.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Guía Definitiva para Leer Etiquetas Nutricionales
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Aprende a detectar azúcares ocultos bajo diferentes nombres
+y reconocer ingredientes que afectan tus objetivos.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 14 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+GUÍAS DE CAMPO
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$45.00
+
+</span>
+
+
+</div>
+
+
+
+<span class="
+inline-block
+mt-4
+bg-orange-100
+text-orange-700
+px-3
+py-1
+rounded-full
+text-xs
+font-bold
+">
+
+POPULAR
+
+</span>
+
+
+
+
+<h3 class="
+mt-5
+text-xl
+font-bold
+">
+
+Guía de Supervivencia para Comer en Restaurantes
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Disfruta salidas sociales, cenas de trabajo y viajes
+sin descarrilar tus hábitos ni sentir culpa.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 15 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+GUÍAS DE CAMPO
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$49.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Guía Meal Prep Inteligente para Personas Ocupadas
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Prepara las bases de tu alimentación semanal en solo 60 minutos
+con el método "Cooking in Batches".
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+<!-- PRODUCTO 16 -->
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+GUÍAS DE CAMPO
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$29.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Guía de Organización y Limpieza de la Cocina
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Transforma tu cocina en un santuario de alta productividad
+donde la opción saludable sea la más fácil de tomar.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 17 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+GUÍAS DE CAMPO
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$45.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Manual de Control de Antojos y Deseos Dulces
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Protocolos prácticos para gestionar impulsos alimentarios
+y recuperar el control de tus decisiones.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 18 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+GUÍAS DE CAMPO
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$39.00
+
+</span>
+
+
+</div>
+
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Guía de Hambre Emocional vs. Hambre Biológica
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Aprende a diferenciar cuándo tu cuerpo busca nutrientes
+y cuándo responde a estrés, cansancio o emociones.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 19 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+GUÍAS DE CAMPO
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$29.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Matriz de Sustituciones Saludables y Gourmet
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Reemplaza ingredientes tradicionales por opciones nutritivas
+sin perder sabor ni disfrute.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 20 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+GUÍAS DE CAMPO
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$29.00
+
+</span>
+
+
+</div>
+
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Guía de Snacks Funcionales de Cero Pico Glucémico
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Opciones rápidas para llevar en tu bolso o maletín
+que mantienen energía estable durante el día.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 21 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+GUÍAS DE CAMPO
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$35.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Guía de Bebidas Funcionales y Cafés Biohacking
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Aprende a preparar bebidas funcionales, cafés especiales
+e infusiones para potenciar tu energía y enfoque.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+<!-- PRODUCTO 22 -->
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+RECETARIOS FUNCIONALES
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$39.00
+
+</span>
+
+</div>
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Recetario 10X: Desayunos de Alto Rendimiento
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+15 opciones saladas y dulces de fácil digestión que cargan tu cerebro
+con nutrientes esenciales para iniciar el día.
+
+</p>
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 23 -->
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+RECETARIOS FUNCIONALES
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$39.00
+
+</span>
+
+</div>
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Recetario 10X: Almuerzos Energéticos para Días Ocupados
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Platos completos diseñados para mantener energía estable
+y evitar pesadez después de comer.
+
+</p>
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 24 -->
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+RECETARIOS FUNCIONALES
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$39.00
+
+</span>
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Recetario 10X: Cenas Reparadoras y Antiinflamatorias
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Comidas ligeras diseñadas para apoyar descanso,
+recuperación y bienestar nocturno.
+
+</p>
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 25 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+RECETARIOS FUNCIONALES
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$35.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Recetario 10X: Postres Saludables sin Azúcar Ni Gluten
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Delicias como mousse de cacao, trufas y muffins proteicos
+para disfrutar cuidando tus objetivos.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 26 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+RECETARIOS FUNCIONALES
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$29.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Recetario 10X: Smoothies Proteicos y Verdes Densos
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Batidos funcionales diseñados para preparar desayunos
+nutritivos en menos de 3 minutos.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 27 -->
+
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+RECETARIOS FUNCIONALES
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$29.00
+
+</span>
+
+
+</div>
+
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Recetario 10X: Bebidas Hidratantes y Elixires Digestivos
+
+</h3>
+
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Bebidas funcionales, electrolitos y preparaciones digestivas
+para complementar tu rutina diaria.
+
+</p>
+
+
+
+
+<button class="
+mt-6
+text-purple-600
+font-bold
+">
+
+Ver detalles del recurso →
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 28 -->
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+<div class="flex justify-between">
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+ACCESO EXCLUSIVO
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$49.00
+
+</span>
+
+</div>
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Biblioteca Digital Centralizada de Recursos Descargables
+
+</h3>
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Un portal organizado para acceder a todos tus PDFs,
+calculadoras y guías desde cualquier dispositivo.
+
+</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 29 -->
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+<div class="flex justify-between">
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+ACCESO EXCLUSIVO
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$97.00
+
+</span>
+
+
+</div>
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Comunidad Privada de Alumnos PROTOCOLO 10X®
+
+</h3>
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Un entorno privado de apoyo, experiencias compartidas
+y acompañamiento durante el proceso.
+
+</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 30 -->
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+ACCESO EXCLUSIVO
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$147.00
+
+</span>
+
+
+</div>
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Sesiones Grupales en Vivo con Especialistas
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Encuentros virtuales para responder preguntas,
+ajustar estrategias y acompañar avances.
+
+</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- PRODUCTO 31 -->
+
+<div class="
+bg-white
+border
+border-gray-100
+rounded-3xl
+p-8
+shadow-sm
+hover:shadow-xl
+transition
+">
+
+
+<div class="flex justify-between">
+
+
+<span class="
+text-purple-600
+font-bold
+text-sm
+">
+
+ACCESO EXCLUSIVO
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-3
+py-1
+rounded-full
+font-bold
+text-sm
+">
+
+$25.00
+
+</span>
+
+
+</div>
+
+
+
+<h3 class="
+mt-6
+text-xl
+font-bold
+">
+
+Certificado Digital de Finalización PROTOCOLO 10X®
+
+</h3>
+
+
+
+<p class="
+mt-4
+text-gray-600
+">
+
+Reconocimiento digital para validar tu compromiso
+y culminación del protocolo.
+
+</p>
+
+
+</div>
+
+</div> <!-- cierre grid biblioteca -->
+
+
+
+
+
+<!-- =====================================
+     BONOS DE ACELERACION
+===================================== -->
+
+
+<div 
+data-aos="fade-up"
+class="
+mt-32
+text-center
+">
+
+
+<span class="
+inline-flex
+px-5
+py-2
+rounded-full
+bg-purple-100
+text-purple-700
+font-bold
+text-sm
+">
+
+BONOS EXCLUSIVOS DE ACELERACIÓN
 
 </span>
 
 
 
 <h3 class="
-mt-4
+mt-6
 text-4xl
+md:text-5xl
 font-display
 font-bold
 text-gray-900
 ">
 
-Tu sistema completo de transformación
+5 Regalos Exclusivos Incluidos GRATIS Hoy
 
 </h3>
+
+
+
+<p class="
+mt-5
+text-lg
+text-gray-600
+max-w-3xl
+mx-auto
+">
+
+Valorados en más de
+
+<strong>
+$311 USD
+</strong>
+
+en recursos adicionales que recibes sin costo durante este lanzamiento.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="
+mt-16
+space-y-10
+">
+
+
+
+
+
+
+
+
+<!-- BONO 1 -->
+
+<div
+data-aos="fade-up"
+
+class="
+bg-gradient-to-br
+from-purple-50
+to-white
+
+border
+border-purple-100
+
+rounded-[3rem]
+
+p-8
+md:p-12
+
+shadow-lg
+">
+
+
+<div class="
+flex
+flex-col
+md:flex-row
+gap-8
+">
+
+
+<div>
+
+
+<div class="
+w-28
+h-28
+
+rounded-3xl
+
+bg-purple-700
+
+text-white
+
+flex
+flex-col
+items-center
+justify-center
+
+font-bold
+">
+
+
+<span class="text-sm">
+BONO
+</span>
+
+
+<span class="text-4xl">
+#1
+</span>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="flex-1">
+
+
+
+<div class="
+flex
+flex-wrap
+gap-3
+">
+
+
+<span class="
+bg-gray-900
+text-white
+px-5
+py-2
+rounded-full
+font-bold
+">
+
+Valor Normal: $97.00 USD
+
+</span>
+
+
+<span class="
+bg-green-500
+text-white
+px-5
+py-2
+rounded-full
+font-bold
+">
+
+GRATIS HOY
+
+</span>
+
+
+</div>
+
+
+
+
+<h4 class="
+mt-6
+text-3xl
+font-bold
+text-gray-900
+">
+
+Recetario Premium Gourmet Biohacking
+
+</h4>
+
+
+
+
+<p class="
+mt-3
+text-xl
+font-semibold
+text-purple-700
+">
+
+Gastronomía de alto nivel diseñada para desinflamar
+
+</p>
+
+
+
+
+<p class="
+mt-5
+text-gray-600
+leading-relaxed
+">
+
+Más de 40 creaciones culinarias de autor preparadas para comer delicioso
+sin alterar tus objetivos de bienestar.
+
+</p>
+
+
+
+
+<ul class="
+mt-6
+space-y-3
+text-gray-700
+">
+
+
+<li>
+✓ Entradas, platos fuertes y cenas estilo restaurante en tu casa
+</li>
+
+
+<li>
+✓ Información macro y micronutricional desglosada
+</li>
+
+
+<li>
+✓ Apto para dietas cetogénicas flexibles, low-carb y paleo
+</li>
+
+
+</ul>
+
+
+
+
+<div class="
+mt-8
+flex
+flex-wrap
+gap-3
+">
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-4
+py-2
+rounded-full
+font-bold
+text-sm
+">
+
+Formato: Digital Ebook HD
+
+</span>
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-4
+py-2
+rounded-full
+font-bold
+text-sm
+">
+
+100% Digital e Instantáneo
+
+</span>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- BONO 2 -->
+
+
+<div
+data-aos="fade-up"
+
+class="
+bg-white
+
+border
+border-gray-100
+
+rounded-[3rem]
+
+p-8
+md:p-12
+
+shadow-lg
+">
+
+
+<div class="
+flex
+flex-col
+md:flex-row
+gap-8
+">
+
+
+<div>
+
+
+<div class="
+w-28
+h-28
+
+rounded-3xl
+
+bg-purple-700
+
+text-white
+
+flex
+flex-col
+items-center
+justify-center
+
+font-bold
+">
+
+<span>
+BONO
+</span>
+
+<span class="text-4xl">
+#2
+</span>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="flex-1">
+
+
+<div class="flex flex-wrap gap-3">
+
+
+<span class="
+bg-gray-900
+text-white
+px-5
+py-2
+rounded-full
+font-bold
+">
+
+Valor Normal: $49.00 USD
+
+</span>
+
+
+<span class="
+bg-green-500
+text-white
+px-5
+py-2
+rounded-full
+font-bold
+">
+
+GRATIS HOY
+
+</span>
+
+
+</div>
+
+
+
+
+<h4 class="
+mt-6
+text-3xl
+font-bold
+">
+
+Guía Maestra de Meal Prep en 60 Minutos
+
+</h4>
+
+
+
+
+<p class="
+mt-3
+text-xl
+font-semibold
+text-purple-700
+">
+
+Ahorra más de 6 horas semanales en la cocina
+
+</p>
+
+
 
 
 <p class="
@@ -657,92 +3721,1213 @@ mt-5
 text-gray-600
 ">
 
-Cada herramienta fue creada para acompañarte durante los 10 días y ayudarte a mantener los resultados.
+El método exacto para cocinar una sola vez a la semana
+y tener tus proteínas y vegetales listos en minutos.
 
 </p>
 
 
+
+
+<ul class="
+mt-6
+space-y-3
+text-gray-700
+">
+
+
+<li>
+✓ Diagrama de flujo de cocina simultánea
+</li>
+
+
+<li>
+✓ Técnicas de conservación y organización
+</li>
+
+
+<li>
+✓ Menú batch-cooking de alta duración
+</li>
+
+
+</ul>
+
+
+
+
+<div class="
+mt-8
+flex
+flex-wrap
+gap-3
+">
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-4
+py-2
+rounded-full
+font-bold
+text-sm
+">
+
+Formato: Manual Digital
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-4
+py-2
+rounded-full
+font-bold
+text-sm
+">
+
+100% Digital e Instantáneo
+
+</span>
+
+
 </div>
 
 
 
+</div>
 
 
+</div>
 
 
-<!-- RECURSOS -->
+</div>
 
+<!-- BONO 3 -->
 
-<div class="
-space-y-6
-">
-
-
-
-
-
-<!-- VIDEO -->
 
 <div
+data-aos="fade-up"
+
 class="
 bg-white
+
 border
 border-gray-100
-rounded-3xl
+
+rounded-[3rem]
+
 p-8
-shadow-sm
+md:p-12
+
+shadow-lg
 ">
 
 
 <div class="
 flex
-items-start
-gap-5
+flex-col
+md:flex-row
+gap-8
 ">
-
-
-<div class="
-w-12
-h-12
-rounded-2xl
-bg-purple-100
-flex
-items-center
-justify-center
-flex-shrink-0
-">
-
-
-<i data-lucide="video"
-class="text-purple-600">
-</i>
-
-
-</div>
-
 
 
 <div>
 
-<h4 class="
-text-xl
+<div class="
+w-28
+h-28
+rounded-3xl
+
+bg-purple-700
+
+text-white
+
+flex
+flex-col
+items-center
+justify-center
+
 font-bold
-text-gray-900
 ">
 
-Video Módulos PROTOCOLO 10X®
+
+<span>
+BONO
+</span>
+
+
+<span class="text-4xl">
+#3
+</span>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="flex-1">
+
+
+<div class="flex flex-wrap gap-3">
+
+
+<span class="
+bg-gray-900
+text-white
+px-5
+py-2
+rounded-full
+font-bold
+">
+
+Valor Normal: $39.00 USD
+
+</span>
+
+
+<span class="
+bg-green-500
+text-white
+px-5
+py-2
+rounded-full
+font-bold
+">
+
+GRATIS HOY
+
+</span>
+
+
+</div>
+
+
+
+
+
+<h4 class="
+mt-6
+text-3xl
+font-bold
+">
+
+Lista Inteligente e Interactiva del Supermercado
 
 </h4>
 
 
+
+
 <p class="
-mt-2
+mt-3
+text-xl
+font-semibold
+text-purple-700
+">
+
+Navega los pasillos como un experto en biohacking
+
+</p>
+
+
+
+
+<p class="
+mt-5
 text-gray-600
 ">
 
-10 clases en Video de Alta Definición
+Una aplicación en plantilla web y PDF para marcar directamente
+desde tu teléfono lo que necesitas sin comprar productos innecesarios.
 
 </p>
+
+
+
+
+<ul class="
+mt-6
+space-y-3
+text-gray-700
+">
+
+<li>
+✓ Clasificación automática por categoría de alimento
+</li>
+
+<li>
+✓ Calculador de presupuesto estimado por persona
+</li>
+
+<li>
+✓ Filtro de marcas recomendadas y limpias
+</li>
+
+</ul>
+
+
+
+
+<div class="
+mt-8
+flex
+flex-wrap
+gap-3
+">
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-4
+py-2
+rounded-full
+font-bold
+text-sm
+">
+
+Formato: Interactive Web App / PDF
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-4
+py-2
+rounded-full
+font-bold
+text-sm
+">
+
+100% Digital e Instantáneo
+
+</span>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- BONO 4 -->
+
+
+<div
+data-aos="fade-up"
+
+class="
+bg-gradient-to-br
+from-purple-50
+to-white
+
+border
+border-purple-100
+
+rounded-[3rem]
+
+p-8
+md:p-12
+
+shadow-lg
+">
+
+
+<div class="
+flex
+flex-col
+md:flex-row
+gap-8
+">
+
+
+<div>
+
+<div class="
+w-28
+h-28
+rounded-3xl
+bg-purple-700
+text-white
+
+flex
+flex-col
+items-center
+justify-center
+
+font-bold
+">
+
+
+<span>
+BONO
+</span>
+
+
+<span class="text-4xl">
+#4
+</span>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="flex-1">
+
+
+<div class="flex flex-wrap gap-3">
+
+
+<span class="
+bg-gray-900
+text-white
+px-5
+py-2
+rounded-full
+font-bold
+">
+
+Valor Normal: $29.00 USD
+
+</span>
+
+
+
+<span class="
+bg-green-500
+text-white
+px-5
+py-2
+rounded-full
+font-bold
+">
+
+GRATIS HOY
+
+</span>
+
+
+</div>
+
+
+
+
+<h4 class="
+mt-6
+text-3xl
+font-bold
+">
+
+Planificador y Trazador de Hábitos Imprimible
+
+</h4>
+
+
+
+
+<p class="
+mt-3
+text-xl
+font-semibold
+text-purple-700
+">
+
+El mapa visual de consistencia diaria
+
+</p>
+
+
+
+
+<p class="
+mt-5
+text-gray-600
+">
+
+Diseño minimalista estilo Apple para colocar en tu refrigerador
+o escritorio y marcar tu progreso día a día.
+
+</p>
+
+
+
+
+<ul class="
+mt-6
+space-y-3
+text-gray-700
+">
+
+<li>
+✓ Seguimiento de hidratación, sueño y nutrientes
+</li>
+
+<li>
+✓ Visualizador de racha de 10 días
+</li>
+
+<li>
+✓ Formato A4 y carta de alta resolución
+</li>
+
+</ul>
+
+
+
+
+<div class="
+mt-8
+">
+
+<span class="
+bg-purple-100
+text-purple-700
+px-4
+py-2
+rounded-full
+font-bold
+text-sm
+">
+
+Formato: Printable Executive Suite
+
+</span>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- BONO 5 -->
+
+
+<div
+data-aos="fade-up"
+
+class="
+bg-white
+
+border
+border-gray-100
+
+rounded-[3rem]
+
+p-8
+md:p-12
+
+shadow-lg
+">
+
+
+<div class="
+flex
+flex-col
+md:flex-row
+gap-8
+">
+
+
+<div>
+
+<div class="
+w-28
+h-28
+
+rounded-3xl
+
+bg-purple-700
+
+text-white
+
+flex
+flex-col
+items-center
+justify-center
+
+font-bold
+">
+
+<span>
+BONO
+</span>
+
+
+<span class="text-4xl">
+#5
+</span>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="flex-1">
+
+
+<div class="flex flex-wrap gap-3">
+
+
+<span class="
+bg-gray-900
+text-white
+px-5
+py-2
+rounded-full
+font-bold
+">
+
+Valor Normal: $97.00 USD
+
+</span>
+
+
+
+<span class="
+bg-green-500
+text-white
+px-5
+py-2
+rounded-full
+font-bold
+">
+
+GRATIS HOY
+
+</span>
+
+
+</div>
+
+
+
+
+<h4 class="
+mt-6
+text-3xl
+font-bold
+">
+
+Masterclass: Alimentación Inteligente, Glucosa y Longevidad
+
+</h4>
+
+
+
+
+<p class="
+mt-3
+text-xl
+font-semibold
+text-purple-700
+">
+
+Impartida por especialistas en salud metabólica
+
+</p>
+
+
+
+
+<p class="
+mt-5
+text-gray-600
+">
+
+Aprende estrategias para mejorar hábitos alimenticios,
+comprender la relación con la glucosa y crear una alimentación
+más inteligente.
+
+</p>
+
+
+
+
+<ul class="
+mt-6
+space-y-3
+text-gray-700
+">
+
+
+<li>
+✓ 120 minutos de conferencia ejecutiva en video HD
+</li>
+
+
+<li>
+✓ Estrategias para comer carbohidratos inteligentemente
+</li>
+
+
+<li>
+✓ Diapositivas y mapas conceptuales descargables
+</li>
+
+
+</ul>
+
+
+
+
+<div class="
+mt-8
+flex
+flex-wrap
+gap-3
+">
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-4
+py-2
+rounded-full
+font-bold
+text-sm
+">
+
+Formato: Masterclass Video HD + Audio
+
+</span>
+
+
+
+<span class="
+bg-purple-100
+text-purple-700
+px-4
+py-2
+rounded-full
+font-bold
+text-sm
+">
+
+100% Digital e Instantáneo
+
+</span>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<!-- =====================================
+     CIERRE OFERTA PRINCIPAL
+===================================== -->
+
+
+<section
+data-aos="fade-up"
+
+class="
+mt-32
+relative
+overflow-hidden
+
+rounded-[3rem]
+
+bg-gradient-to-br
+from-purple-700
+via-purple-800
+to-purple-950
+
+text-white
+
+p-8
+md:p-16
+
+shadow-2xl
+">
+
+
+
+<div class="
+absolute
+top-0
+right-0
+w-96
+h-96
+
+bg-purple-500
+opacity-20
+rounded-full
+blur-3xl
+">
+</div>
+
+
+
+
+
+<div class="
+relative
+z-10
+max-w-4xl
+mx-auto
+text-center
+">
+
+
+
+
+
+<span class="
+inline-block
+bg-white/20
+backdrop-blur
+
+px-5
+py-2
+
+rounded-full
+
+font-bold
+text-sm
+tracking-wide
+">
+
+OFERTA DE LANZAMIENTO
+
+</span>
+
+
+
+
+
+<h2 class="
+mt-8
+text-4xl
+md:text-6xl
+
+font-display
+font-bold
+leading-tight
+">
+
+Consigue Todo el
+
+<span class="text-yellow-300">
+PROTOCOLO 10X®
+</span>
+
+<br>
+
++ Los 5 Bonos Exclusivos
+
+</h2>
+
+
+
+
+
+
+<p class="
+mt-6
+
+text-xl
+md:text-2xl
+
+text-purple-100
+">
+
+Más de
+
+<strong class="text-white">
+36 recursos digitales
+</strong>
+
+creados para ayudarte a transformar tus hábitos,
+alimentación y energía.
+
+</p>
+
+
+
+
+
+
+
+<div class="
+mt-12
+
+grid
+md:grid-cols-2
+
+gap-6
+max-w-3xl
+mx-auto
+">
+
+
+
+
+
+<div class="
+bg-white/10
+
+rounded-3xl
+
+p-6
+
+border
+border-white/20
+">
+
+
+<p class="
+text-purple-200
+font-semibold
+">
+
+Valor acumulado real
+
+</p>
+
+
+<p class="
+mt-2
+
+text-5xl
+
+font-bold
+
+line-through
+
+text-white/70
+">
+
+$1,411
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="
+bg-white
+
+text-gray-900
+
+rounded-3xl
+
+p-6
+
+shadow-xl
+">
+
+
+<p class="
+text-purple-700
+font-bold
+">
+
+Hoy recibes todo por:
+
+</p>
+
+
+<p class="
+mt-2
+
+text-6xl
+
+font-bold
+
+text-purple-700
+">
+
+$49.95
+
+</p>
+
+
+<p class="
+font-semibold
+">
+
+USD Pago único
+
+</p>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="
+mt-12
+
+bg-white/10
+
+rounded-3xl
+
+p-6
+
+border
+border-white/20
+">
+
+
+<p class="
+text-lg
+md:text-xl
+font-semibold
+">
+
+Esta oferta de lanzamiento estará disponible
+por tiempo limitado.
+
+</p>
+
+
+<p class="
+mt-3
+
+text-purple-200
+">
+
+Después del lanzamiento, el valor regresará a su precio normal.
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<a
+
+href="#registro"
+
+class="
+
+mt-10
+
+inline-flex
+
+items-center
+justify-center
+
+gap-3
+
+bg-yellow-400
+
+hover:bg-yellow-300
+
+text-gray-900
+
+font-bold
+
+text-xl
+
+px-10
+
+py-5
+
+rounded-full
+
+shadow-2xl
+
+transition
+
+hover:scale-105
+
+">
+
+
+Reclamar mi PROTOCOLO 10X ahora
+
+
+<span>
+→
+</span>
+
+
+</a>
+
+
+
+
+
+
+
+
+<p class="
+mt-6
+
+text-sm
+
+text-purple-200
+">
+
+Acceso digital inmediato • Recursos descargables • Disponible desde cualquier dispositivo
+
+</p>
+
+
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- =====================================
+     GARANTIA / CONFIANZA
+===================================== -->
+
+
+<section
+
+data-aos="fade-up"
+
+class="
+mt-20
+
+grid
+
+md:grid-cols-3
+
+gap-8
+">
+
+
+
+
+
+<div class="
+bg-white
+
+rounded-3xl
+
+p-8
+
+text-center
+
+shadow-sm
+
+border
+border-gray-100
+">
+
+
+<div class="
+text-4xl
+mb-4
+">
+
+⚡
+
+</div>
+
+
+<h3 class="
+font-bold
+text-xl
+">
+
+Acceso Inmediato
+
+</h3>
 
 
 <p class="
@@ -750,588 +4935,126 @@ mt-3
 text-gray-600
 ">
 
-Lecciones ejecutivas de 10-15 minutos diseñadas para la vida real.
-
-Sin rodeos.
-Con pasos accionables día por día.
+Recibe tus recursos digitales
+sin esperas.
 
 </p>
 
 
+</div>
+
+
+
+
+
+
+
+
 <div class="
-mt-4
-inline-flex
-bg-purple-50
-text-purple-700
-px-4
-py-2
-rounded-full
-text-sm
-font-semibold
-">
-
-Valor: $197.00 USD
-
-</div>
-
-
-</div>
-
-
-</div>
-
-</div>
-
-
-
-
-
-
-
-<!-- MANUALES -->
-
-<div
-class="
 bg-white
+
+rounded-3xl
+
+p-8
+
+text-center
+
+shadow-sm
+
 border
 border-gray-100
-rounded-3xl
-p-8
-shadow-sm
 ">
 
 
 <div class="
-flex
-items-start
-gap-5
+text-4xl
+mb-4
 ">
 
-
-<div class="
-w-12
-h-12
-rounded-2xl
-bg-purple-100
-flex
-items-center
-justify-center
-flex-shrink-0
-">
-
-
-<i data-lucide="book-open"
-class="text-purple-600">
-</i>
-
+📚
 
 </div>
 
 
-
-
-<div>
-
-<h4 class="
-text-xl
+<h3 class="
 font-bold
+text-xl
 ">
 
-Manuales & Agendas Digitales
+Sistema Completo
 
-</h4>
+</h3>
 
 
-
-<ul class="
-mt-4
-space-y-3
+<p class="
+mt-3
 text-gray-600
 ">
 
+Todo organizado paso a paso
+en un solo lugar.
 
-<li>
-✓ Manual Digital de Inicio Rápido 10X®
-</li>
-
-
-<li>
-✓ Agenda Digital Interactiva de Hábitos
-</li>
-
-
-<li>
-✓ Planificador Semanal de Comidas
-</li>
-
-
-<li>
-✓ Planificador Mensual de Mantenimiento
-</li>
-
-
-<li>
-✓ Calendario de Hábitos y Ritmos Circadianos
-</li>
-
-
-</ul>
+</p>
 
 
 </div>
 
 
-</div>
-
-</div>
 
 
 
 
 
 
-
-
-<!-- CALCULADORAS -->
-
-<div
-class="
+<div class="
 bg-white
+
+rounded-3xl
+
+p-8
+
+text-center
+
+shadow-sm
+
 border
 border-gray-100
-rounded-3xl
-p-8
-shadow-sm
 ">
 
 
 <div class="
-flex
-items-start
-gap-5
+text-4xl
+mb-4
 ">
 
-
-<div class="
-w-12
-h-12
-rounded-2xl
-bg-purple-100
-flex
-items-center
-justify-center
-">
-
-
-<i data-lucide="calculator"
-class="text-purple-600">
-</i>
-
+🚀
 
 </div>
 
 
-
-<div>
-
-
-<h4 class="
-text-xl
+<h3 class="
 font-bold
+text-xl
 ">
 
-Calculadoras & Registros Inteligentes
+Empieza Hoy
 
-</h4>
+</h3>
 
 
-
-<ul class="
-mt-4
-space-y-3
+<p class="
+mt-3
 text-gray-600
 ">
 
+Tu transformación comienza
+con la primera acción.
 
-<li>
-✓ Calculadora de Hidratación y Electrolitos
-</li>
-
-
-<li>
-✓ Calculadora de Proteína Funcional y Saciedad
-</li>
-
-
-<li>
-✓ Registro de Progreso Biométrico
-</li>
-
-
-<li>
-✓ Sistema de Control de Peso y Medidas
-</li>
-
-
-<li>
-✓ Registro Fotográfico Privado
-</li>
-
-
-</ul>
-
-
-
-</div>
-
-
-</div>
+</p>
 
 
 </div>
 
 
 
-
-
-
-
-
-
-<!-- GUIAS -->
-
-<div
-class="
-bg-white
-border
-border-gray-100
-rounded-3xl
-p-8
-shadow-sm
-">
-
-
-<div class="
-flex
-items-start
-gap-5
-">
-
-
-<div class="
-w-12
-h-12
-rounded-2xl
-bg-purple-100
-flex
-items-center
-justify-center
-">
-
-
-<i data-lucide="map"
-class="text-purple-600">
-</i>
-
-
-</div>
-
-
-
-
-<div>
-
-
-<h4 class="
-text-xl
-font-bold
-">
-
-Guías de Campo 10X®
-
-</h4>
-
-
-<ul class="
-mt-4
-space-y-3
-text-gray-600
-">
-
-
-<li>
-✓ Lista Inteligente del Supermercado Biohacking
-</li>
-
-
-<li>
-✓ Guía para Leer Etiquetas Nutricionales
-</li>
-
-
-<li>
-✓ Guía de Supervivencia para Comer en Restaurantes
-</li>
-
-
-<li>
-✓ Guía Meal Prep Inteligente 60 minutos
-</li>
-
-
-<li>
-✓ Organización y Limpieza de Cocina
-</li>
-
-
-<li>
-✓ Control de Antojos y Deseos Dulces
-</li>
-
-
-<li>
-✓ Hambre Emocional vs Hambre Biológica
-</li>
-
-
-<li>
-✓ Matriz de Sustituciones Saludables
-</li>
-
-
-<li>
-✓ Snacks Funcionales
-</li>
-
-
-<li>
-✓ Bebidas Funcionales y Cafés Biohacking
-</li>
-
-
-</ul>
-
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-<!-- RECETARIOS -->
-
-
-<div
-class="
-bg-white
-border
-border-gray-100
-rounded-3xl
-p-8
-shadow-sm
-">
-
-
-<div class="
-flex
-items-start
-gap-5
-">
-
-
-<div class="
-w-12
-h-12
-rounded-2xl
-bg-purple-100
-flex
-items-center
-justify-center
-">
-
-
-<i data-lucide="utensils"
-class="text-purple-600">
-</i>
-
-
-</div>
-
-
-
-<div>
-
-
-<h4 class="
-text-xl
-font-bold
-">
-
-Recetarios Funcionales 10X®
-
-</h4>
-
-
-<ul class="
-mt-4
-space-y-3
-text-gray-600
-">
-
-
-<li>
-✓ Desayunos de Alto Rendimiento
-</li>
-
-
-<li>
-✓ Almuerzos Energéticos
-</li>
-
-
-<li>
-✓ Cenas Reparadoras
-</li>
-
-
-<li>
-✓ Postres Saludables sin Azúcar
-</li>
-
-
-<li>
-✓ Smoothies Proteicos y Verdes
-</li>
-
-
-<li>
-✓ Bebidas Hidratantes y Elixires Digestivos
-</li>
-
-
-</ul>
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-<!-- ACCESO -->
-
-<div
-class="
-bg-white
-border
-border-gray-100
-rounded-3xl
-p-8
-shadow-sm
-">
-
-
-<div class="
-flex
-items-start
-gap-5
-">
-
-
-<div class="
-w-12
-h-12
-rounded-2xl
-bg-purple-100
-flex
-items-center
-justify-center
-">
-
-
-<i data-lucide="shield-check"
-class="text-purple-600">
-</i>
-
-
-</div>
-
-
-
-<div>
-
-
-<h4 class="
-text-xl
-font-bold
-">
-
-Acceso Exclusivo PROTOCOLO 10X®
-
-</h4>
-
-
-
-<ul class="
-mt-4
-space-y-3
-text-gray-600
-">
-
-
-<li>
-✓ Biblioteca Digital Centralizada
-</li>
-
-
-<li>
-✓ Comunidad Privada de Alumnos
-</li>
-
-
-<li>
-✓ Sesiones Grupales en Vivo
-</li>
-
-
-<li>
-✓ Certificado Digital de Finalización
-</li>
-
-
-</ul>
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
+</section>
