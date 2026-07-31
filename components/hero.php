@@ -1,171 +1,471 @@
-<section class="relative overflow-hidden bg-white">
+<?php
+/**
+ * PROTOCOLO 10X
+ * Hero Principal
+ */
+?>
+
 
-    <!-- Fondo decorativo -->
-    <div class="absolute inset-0 -z-10">
-        <div class="absolute top-20 left-10 w-72 h-72 bg-purple-200 rounded-full blur-3xl opacity-40"></div>
-        <div class="absolute bottom-20 right-10 w-96 h-96 bg-purple-300 rounded-full blur-3xl opacity-30"></div>
-    </div>
+<section 
+id="inicio"
+class="
+relative
+overflow-hidden
+pt-32
+pb-20
+bg-white
+">
+
 
+<!-- BACKGROUND BLOBS -->
 
-    <div class="max-w-7xl mx-auto px-6 py-20 lg:py-32">
+<div class="
+absolute
+top-20
+right-0
+w-96
+h-96
+bg-purple-200
+rounded-full
+blur-3xl
+opacity-40
+">
+</div>
 
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
 
+<div class="
+absolute
+bottom-0
+left-0
+w-80
+h-80
+bg-purple-100
+rounded-full
+blur-3xl
+opacity-50
+">
+</div>
 
-            <!-- Texto -->
-            <div data-aos="fade-right">
 
 
-                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-purple-50 text-purple-700 text-sm font-medium mb-6">
 
-                    <span class="w-2 h-2 rounded-full bg-purple-600"></span>
+<div class="
+max-w-7xl
+mx-auto
+px-6
+relative
+z-10
+">
 
-                    Programa premium de 10 días
 
-                </div>
+<div class="
+grid
+lg:grid-cols-2
+gap-12
+items-center
+">
 
 
 
-                <h1 class="font-display text-5xl md:text-6xl lg:text-7xl leading-tight text-gray-900">
+<!-- TEXTO -->
 
-                    Reinicia tus hábitos.
-                    <span class="text-purple-700">
-                        Transforma tu energía.
-                    </span>
+<div
+data-aos="fade-right"
+>
 
-                    En solo 10 días.
 
-                </h1>
+<div class="
+inline-flex
+items-center
+gap-2
+px-4
+py-2
+rounded-full
+bg-purple-50
+text-purple-700
+text-sm
+font-medium
+mb-6
+">
 
 
+<span class="
+w-2
+h-2
+bg-purple-600
+rounded-full
+animate-pulse
+">
+</span>
 
-                <p class="mt-6 text-lg text-gray-600 max-w-xl leading-relaxed">
 
-                    PROTOCOLO 10X es un sistema práctico de alimentación,
-                    hábitos y optimización personal diseñado para personas
-                    ocupadas que quieren volver a tener el control de su bienestar.
+Programa premium de transformación
 
-                </p>
 
+</div>
 
 
-                <div class="mt-8 flex flex-col sm:flex-row gap-4">
 
+<h1 class="
+text-5xl
+md:text-7xl
+font-display
+font-bold
+leading-tight
+text-gray-900
+">
 
-                    <a href="#oferta"
-                    class="px-8 py-4 rounded-2xl bg-purple-700 text-white font-semibold text-center shadow-lg hover:bg-purple-800 transition">
 
-                        Quiero iniciar mi transformación
+Transforma tus hábitos.
 
-                    </a>
+<br>
 
 
+<span class="text-purple-600">
 
-                    <a href="#como-funciona"
-                    class="px-8 py-4 rounded-2xl border border-gray-200 text-gray-700 font-semibold text-center hover:bg-gray-50 transition">
+Recupera tu energía.
 
-                        Conocer el método
+</span>
 
-                    </a>
 
+<br>
 
-                </div>
 
+En solo 10 días.
 
 
-                <!-- Mini prueba social -->
+</h1>
 
-                <div class="mt-10 flex items-center gap-4">
 
 
-                    <div class="flex -space-x-3">
+<p class="
+mt-6
+text-lg
+text-gray-600
+max-w-xl
+leading-relaxed
+">
 
-                        <div class="w-10 h-10 rounded-full bg-purple-200 border-2 border-white"></div>
-                        <div class="w-10 h-10 rounded-full bg-purple-300 border-2 border-white"></div>
-                        <div class="w-10 h-10 rounded-full bg-purple-400 border-2 border-white"></div>
 
-                    </div>
+PROTOCOLO 10X es una experiencia guiada de transformación donde combinamos alimentación inteligente, hábitos simples y acompañamiento para ayudarte a crear un cambio real.
 
 
-                    <div>
+</p>
 
-                        <div class="text-sm font-semibold text-gray-900">
-                            Comunidad PROTOCOLO 10X
-                        </div>
 
-                        <div class="text-sm text-gray-500">
-                            Acompañamiento durante tus 10 días
-                        </div>
 
-                    </div>
 
 
-                </div>
+<div class="
+mt-8
+flex
+flex-col
+sm:flex-row
+gap-4
+">
 
 
-            </div>
+<a 
+href="#registro"
 
+class="
+px-8
+py-4
+rounded-full
 
+bg-purple-600
+text-white
 
+font-semibold
 
-            <!-- Imagen / tarjeta -->
+shadow-xl
+shadow-purple-200
 
-            <div data-aos="fade-left" class="relative">
+hover:bg-purple-700
+hover:scale-105
 
+transition
+duration-300
 
-                <div class="relative rounded-[2.5rem] overflow-hidden shadow-2xl">
+text-center
+">
 
 
-                    <img
-                    src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1200&auto=format&fit=crop"
-                    alt="Alimentación saludable PROTOCOLO 10X"
-                    class="w-full h-[600px] object-cover">
+Quiero iniciar mi 10X
 
 
-                </div>
+</a>
 
 
 
-                <!-- Tarjeta flotante -->
 
-                <div class="absolute bottom-8 left-8 right-8 bg-white/80 backdrop-blur-xl rounded-3xl p-5 shadow-xl">
+<a 
+href="#metodo"
 
+class="
+px-8
+py-4
+rounded-full
 
-                    <div class="flex items-center gap-4">
+border
+border-gray-200
 
+text-gray-700
 
-                        <div class="w-12 h-12 rounded-2xl bg-purple-100 flex items-center justify-center">
+font-semibold
 
-                            <i data-lucide="sparkles" class="text-purple-700"></i>
+hover:border-purple-400
+hover:text-purple-600
 
-                        </div>
+transition
 
+text-center
+">
 
-                        <div>
 
-                            <div class="font-bold text-gray-900">
-                                Método guiado
-                            </div>
+Conocer el método
 
-                            <div class="text-sm text-gray-600">
-                                Alimentación + hábitos + comunidad
-                            </div>
 
-                        </div>
+</a>
 
 
-                    </div>
 
+</div>
 
-                </div>
 
 
-            </div>
 
 
-        </div>
+<!-- MINI STATS -->
 
-    </div>
+
+<div class="
+mt-10
+grid
+grid-cols-3
+gap-6
+max-w-md
+">
+
+
+<div>
+
+<p class="
+text-3xl
+font-bold
+text-purple-600
+">
+
+10
+
+</p>
+
+<p class="
+text-sm
+text-gray-500
+">
+
+Días
+
+</p>
+
+</div>
+
+
+
+
+<div>
+
+<p class="
+text-3xl
+font-bold
+text-purple-600
+">
+
+1:1
+
+</p>
+
+<p class="
+text-sm
+text-gray-500
+">
+
+Seguimiento
+
+</p>
+
+</div>
+
+
+
+
+<div>
+
+<p class="
+text-3xl
+font-bold
+text-purple-600
+">
+
+100%
+
+</p>
+
+<p class="
+text-sm
+text-gray-500
+">
+
+Compromiso
+
+</p>
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+<!-- IMAGEN / VISUAL -->
+
+<div
+data-aos="fade-left"
+class="
+relative
+">
+
+
+<div class="
+absolute
+inset-0
+bg-purple-300
+rounded-[3rem]
+blur-3xl
+opacity-30
+">
+</div>
+
+
+
+<div class="
+relative
+rounded-[3rem]
+overflow-hidden
+shadow-2xl
+border
+border-purple-100
+">
+
+
+<img
+
+src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop"
+
+alt="Transformación PROTOCOLO 10X"
+
+class="
+w-full
+h-[600px]
+object-cover
+"
+
+/>
+
+
+</div>
+
+
+
+
+
+<!-- CARD FLOTANTE -->
+
+<div class="
+absolute
+bottom-8
+left-[-20px]
+
+bg-white
+
+rounded-3xl
+
+shadow-xl
+
+p-5
+
+flex
+items-center
+gap-4
+">
+
+
+<div class="
+w-12
+h-12
+rounded-full
+
+bg-purple-100
+
+flex
+items-center
+justify-center
+">
+
+
+<i data-lucide="zap" class="text-purple-600"></i>
+
+
+</div>
+
+
+
+<div>
+
+<p class="
+font-bold
+text-gray-900
+">
+
+Más energía
+
+</p>
+
+
+<p class="
+text-sm
+text-gray-500
+">
+
+Desde los primeros días
+
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+</div>
 
 
 </section>
