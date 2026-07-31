@@ -32,6 +32,10 @@
 
     <?php include 'components/resultados.php'; ?>
 
+     <!-- Oferta -->
+
+    <?php include 'components/oferta.php'; ?>
+
 
 
 </main>
