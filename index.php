@@ -36,6 +36,9 @@
 
     <?php include 'components/oferta.php'; ?>
 
+ <!-- para quien  -->
+    <?php include 'components/para-quien.php'; ?>
+
 
 
 </main>
