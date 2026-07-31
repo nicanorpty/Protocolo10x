@@ -1,71 +1,83 @@
-<nav class="fixed top-0 left-0 right-0 z-50">
+<?php
+/**
+ * PROTOCOLO 10X
+ * Navbar Premium
+ */
+?>
+
+
+<nav 
+id="navbar"
+class="fixed top-0 left-0 w-full z-50 transition-all duration-500">
 
     <div class="max-w-7xl mx-auto px-6 py-5">
 
-        <div class="flex items-center justify-between 
-                    bg-white/70 backdrop-blur-xl 
-                    border border-gray-100 
-                    rounded-3xl 
-                    px-6 py-4 shadow-sm">
+        <div class="flex items-center justify-between">
 
 
-            <!-- Logo -->
+            <!-- LOGO -->
 
-            <a href="/" class="flex items-center gap-3">
+            <a href="#" 
+            class="flex items-center gap-2">
 
-                <div class="w-11 h-11 rounded-2xl 
-                            bg-purple-700 
-                            flex items-center justify-center 
-                            text-white font-bold text-lg">
+                <div 
+                class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-gold to-yellow-700 flex items-center justify-center shadow-lg">
 
-                    10X
+                    <span class="text-black font-bold text-xl">
+                        10X
+                    </span>
 
                 </div>
 
 
                 <div>
 
-                    <div class="font-bold text-gray-900 leading-none">
+                    <h1 class="font-display text-xl text-white tracking-wide">
                         PROTOCOLO
-                    </div>
+                        <span class="text-brand-gold">
+                            10X
+                        </span>
+                    </h1>
 
-                    <div class="text-xs text-purple-700 tracking-widest">
+
+                    <p class="text-xs text-gray-300 tracking-widest">
                         TRANSFORMACIÓN
-                    </div>
+                    </p>
 
                 </div>
+
 
             </a>
 
 
 
 
-            <!-- Menu Desktop -->
+            <!-- MENU DESKTOP -->
 
             <div class="hidden md:flex items-center gap-8">
 
 
-                <a href="#metodo"
-                class="text-sm font-medium text-gray-600 hover:text-purple-700 transition">
-
-                    Método
-
+                <a href="#inicio"
+                class="text-white/90 hover:text-white transition">
+                    Inicio
                 </a>
 
 
-                <a href="#incluye"
-                class="text-sm font-medium text-gray-600 hover:text-purple-700 transition">
-
-                    Incluye
-
+                <a href="#como-funciona"
+                class="text-white/90 hover:text-white transition">
+                    Cómo funciona
                 </a>
 
 
-                <a href="#testimonios"
-                class="text-sm font-medium text-gray-600 hover:text-purple-700 transition">
+                <a href="#resultados"
+                class="text-white/90 hover:text-white transition">
+                    Resultados
+                </a>
 
-                    Historias
 
+                <a href="#faq"
+                class="text-white/90 hover:text-white transition">
+                    FAQ
                 </a>
 
 
@@ -74,33 +86,32 @@
 
 
 
+
             <!-- CTA -->
 
-            <a href="#oferta"
-            class="hidden md:block px-6 py-3 
-                   rounded-2xl 
-                   bg-purple-700 
-                   text-white 
-                   text-sm 
-                   font-semibold
-                   hover:bg-purple-800
-                   transition
-                   shadow-lg shadow-purple-200">
+            <a 
+            href="#registro"
+            class="hidden md:flex items-center gap-2 px-6 py-3 rounded-full 
+            bg-brand-gold text-black font-semibold
+            hover:scale-105 transition duration-300 shadow-lg">
 
-                Comenzar ahora
+                Iniciar ahora
+
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
 
             </a>
 
 
 
 
-            <!-- Mobile Icon -->
 
-            <button class="md:hidden w-10 h-10 rounded-xl 
-                           bg-purple-50 
-                           flex items-center justify-center">
+            <!-- MOBILE BUTTON -->
 
-                <i data-lucide="menu" class="text-purple-700"></i>
+            <button 
+            class="md:hidden text-white"
+            id="menu-btn">
+
+                <i data-lucide="menu"></i>
 
             </button>
 
@@ -109,5 +120,6 @@
         </div>
 
     </div>
+
 
 </nav>

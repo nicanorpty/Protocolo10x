@@ -2,18 +2,15 @@
 
 <?php include 'components/navbar.php'; ?>
 
-<main>
 
-    <?php include 'components/hero.php'; ?>
+<h1 class="text-5xl font-display text-center mt-20">
+PROTOCOLO 10X
+</h1>
 
-    <?php include 'components/sections/problem.php'; ?>
 
-    <?php include 'components/sections/how-it-works.php'; ?>
+<p class="text-center mt-5 text-gray-600">
+Sistema premium de transformación en 10 días
+</p>
 
-    <?php include 'components/sections/testimonials.php'; ?>
-
-    <?php include 'components/sections/offer.php'; ?>
-
-</main>
 
 <?php include 'components/footer.php'; ?>
