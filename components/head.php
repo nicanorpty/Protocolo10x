@@ -109,7 +109,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
      ICONOS MODERNOS
 ===================================== -->
 
-<script src="https://unpkg.com/lucide@latest" defer></script>
+<script src="https://unpkg.com/lucide@latest"></script>
 
 
 
